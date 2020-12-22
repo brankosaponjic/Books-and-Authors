@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All Books</title>
+</head>
+<body>
+    <div align="center">
+        <br>
+        <h1>Book List</h1>
+        <br>
+        <table border="1">
+            <tr>
+                <td>ID</td>
+                <td>TITLE</td>
+                <td>AUTHOR</td>
+                <td>EDIT/DEL</td>
+            </tr>
+            <tr th:each="b : ${books}">
+                <td th:text="${b.id}"></td>
+                <td th:text="${b.title}"></td>
+                <td th:text="${b.author}"></td>
+                <td>
+                    <a href="#" th:href="@{/editBookForm(bookId=${b.id})}">Edit</a>
+                    <a href="#" th:href="@{/delete(bookId=${(b.id)})}"
+                       onclick="if (!(confirm('Are you sure you want to delete this Book?'))) return false"
+                    >
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <a th:href="@{/addBookForm}">Add Book</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[{
+  "_id": 126,
+  "title": "Harry Potter ",
+  "author": "JK Rowling",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 392,
+  "title": "Harry Potter 2",
+  "author": "JK Rowling",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 817,
+  "title": "Harry Potter 3",
+  "author": "JK Rowling",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 1,
+  "title": "The Idiot",
+  "author": "Fyodor Dostoevsky",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 2,
+  "title": "The Brothers Karamazov",
+  "author": "Fyodor Dostoevsky",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 3,
+  "title": "Poor Folk",
+  "author": "Fyodor Dostoevsky",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 4,
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 10,
+  "title": "War And Peace",
+  "author": "Lev Tolstoy",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 11,
+  "title": "Anna Karenina",
+  "author": "Lev Tolstoy",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 12,
+  "title": "Sevastopol Sketches",
+  "author": "Lev Tolstoy",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+},{
+  "_id": 5,
+  "title": "Resurrection",
+  "author": "Lev Tolstoy",
+  "_class": "brankosaponjic.springbootmongodb.entity.Book"
+}]
